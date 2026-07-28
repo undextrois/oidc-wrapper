@@ -1,4 +1,4 @@
-# kdy-oidc-wrapper
+# oidc-wrapper
 
 Drop-in Keycloak OIDC integration via the BFF pattern: the backend owns the
 entire OIDC relationship (Authorization Code + PKCE, ID token validation,
