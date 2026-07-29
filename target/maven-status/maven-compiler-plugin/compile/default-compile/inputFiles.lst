@@ -1,0 +1,11 @@
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/javalin/JavalinOidcPlugin.java
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/SessionRecord.java
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/UserSession.java
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/CryptoUtil.java
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/OidcConfig.java
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/SessionStore.java
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/OidcException.java
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/SqliteSessionStore.java
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/KeycloakOidcEngine.java
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/DiscoveryDocument.java
+/Users/undextrois/Documents/main/oidc-wrapper/src/main/java/com/kdysystems/oidc/PendingAuth.java

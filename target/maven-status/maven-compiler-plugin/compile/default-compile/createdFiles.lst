@@ -1,0 +1,15 @@
+com/kdysystems/oidc/UserSession.class
+com/kdysystems/oidc/javalin/JavalinOidcPlugin.class
+com/kdysystems/oidc/SqliteSessionStore.class
+com/kdysystems/oidc/SessionStore.class
+com/kdysystems/oidc/KeycloakOidcEngine$CallbackResult.class
+com/kdysystems/oidc/KeycloakOidcEngine$AuthorizationRequest.class
+com/kdysystems/oidc/SessionRecord.class
+com/kdysystems/oidc/KeycloakOidcEngine.class
+com/kdysystems/oidc/OidcConfig$Mode.class
+com/kdysystems/oidc/OidcConfig.class
+com/kdysystems/oidc/DiscoveryDocument.class
+com/kdysystems/oidc/OidcConfig$Builder.class
+com/kdysystems/oidc/OidcException.class
+com/kdysystems/oidc/CryptoUtil.class
+com/kdysystems/oidc/PendingAuth.class
