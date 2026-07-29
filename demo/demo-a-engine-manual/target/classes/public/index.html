@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo A — Engine (manual wiring, no Javalin)</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 480px; margin: 4rem auto; padding: 0 1rem; }
+    button { padding: 0.6rem 1.2rem; font-size: 1rem; cursor: pointer; margin-right: 0.5rem; }
+    #status { margin: 1.5rem 0; padding: 1rem; border-radius: 6px; background: #f0f0f0; }
+    .authed { background: #dff6dd; }
+    .not-authed { background: #fbeaea; }
+  </style>
+</head>
+<body>
+  <h1>Demo A</h1>
+  <p>KeycloakOidcEngine wired by hand against JDK HttpServer — no Javalin involved.</p>
+
+  <div id="status">Checking auth status…</div>
+
+  <button id="loginBtn">Log in</button>
+  <button id="logoutBtn">Log out</button>
+
+  <script>
+    const statusEl = document.getElementById('status');
+
+    async function checkAuth() {
+      const res = await fetch('/auth/me');
+      if (res.ok) {
+        const data = await res.json();
+        statusEl.textContent = `Logged in as: ${data.subject}`;
+        statusEl.className = 'authed';
+      } else {
+        statusEl.textContent = 'Not logged in.';
+        statusEl.className = 'not-authed';
+      }
+    }
+
+    document.getElementById('loginBtn').addEventListener('click', () => {
+      window.location.href = '/auth/login';
+    });
+
+    document.getElementById('logoutBtn').addEventListener('click', () => {
+      window.location.href = '/auth/logout';
+    });
+
+    checkAuth();
+  </script>
+</body>
+</html>
